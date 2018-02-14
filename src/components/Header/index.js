@@ -12,8 +12,7 @@ const Header = () => (
       style={{
         margin: '0 auto',
         maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-        height: '20vh',
+        padding: '1.45rem 1rem',
         textAlign: 'center',
       }}
     >

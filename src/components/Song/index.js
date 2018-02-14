@@ -5,8 +5,8 @@ import styles from './song.module.css'
 const Song = () => {
   return (
     <div className={styles.center}>
-      <h3>Song Title</h3>
-      <p>Artist Name</p>
+      <h4>Artist Name</h4>
+      <h2>Song Title</h2>
     </div>
   )
 }
