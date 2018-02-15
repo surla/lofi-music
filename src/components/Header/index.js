@@ -4,24 +4,28 @@ import Link from 'gatsby-link'
 const Header = () => (
   <div
     style={{
-      background: '#FF8F00',
+      marginTop: '1rem',
       marginBottom: '1.45rem',
     }}
   >
     <div
       style={{
-        margin: '0 auto',
+        marginLeft: '8rem',
         maxWidth: 960,
         padding: '1.45rem 1rem',
-        textAlign: 'center',
+        textAlign: 'left',
+        transform: 'rotate(2deg)'
       }}
     >
       <h1 style={{ margin: 0 }}>
         <Link
           to="/"
           style={{
+            padding: '.5rem 1rem',
             color: 'white',
             textDecoration: 'none',
+            backgroundColor: '#FF8F00',
+            transform: 'rotate(-20deg)'
           }}
         >
           Lo Fi Hip Hop
