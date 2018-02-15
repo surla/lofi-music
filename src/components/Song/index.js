@@ -2,11 +2,11 @@ import React from 'react';
 
 import styles from './song.module.css'
 
-const Song = () => {
+const Song = (props) => {
   return (
     <div className={styles.center}>
-      <h4>Artist Name</h4>
-      <h2>Song Title</h2>
+      <h4>{props.artist}</h4>
+      <h2>{props.song}</h2>
     </div>
   )
 }
