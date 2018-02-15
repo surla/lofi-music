@@ -1,3 +1,15 @@
 .center {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  height: 300px;
+}
+
+.song {
+  margin-top: -10px;
+}
+
+.image {
+  width: 225px;
+  height: 225px;
 }
